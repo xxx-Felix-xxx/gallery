@@ -6,7 +6,7 @@
 .container {
     width: 80%;
     height: 100vh;
-    background-color: pink;
+    background-color: rgb(51, 153, 136);
     margin: 0 auto;
 }
 .caption{
