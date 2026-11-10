@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    background-color: pink;
+    margin: 0 auto;
+}
+.caption{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align:  center;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.item-img{
+    width: 300px;
+}
+.item-txt{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: whitesmoke;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 390px) {
+    .container{
+        /*background-color: palevioletred;*/
+    }
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-img{
+        width: 350px;
+    }
+    .item{
+        margin-bottom: 40px;
+    }
+}
